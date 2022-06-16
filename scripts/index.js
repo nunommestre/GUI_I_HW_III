@@ -64,7 +64,7 @@ var music_play = false;
 document.querySelector("button").addEventListener("click", function () {
   // Error messages are hidden to start and the among us music plays when the button is clicked
   document.getElementById("error").innerHTML = "";
-  var audio = new Audio("Music/AmongUS_Drip.mp3");
+  var audio = new Audio("../Music/AmongUS_Drip.mp3");
   if (!music_play) {
     audio.play();
     music_play = true;
